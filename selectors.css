@@ -1,0 +1,56 @@
+header {
+   
+    border: 1px solid goldenrod;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header li {
+    
+    display: inline-block;
+    margin: 2em;
+}
+
+.disabled {
+    color: grey;
+}
+
+a.disabled {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
+
+div.parent div:first-child  {
+    color: red;
+}
+
+div.parent div:first-child + h4  {
+    background-color: red;
+}
+
+div.parent div:nth-of-type(2) {
+    color: blue;
+}
+
+div.parent div:nth-of-type(2) + h4 {
+    background-color: blue;
+}
+
+div.grandparent > h4:first-of-type {
+    border:1px solid black;
+    border-radius: 25px;
+}
+
+.promo  {
+    color:gold;
+    font-weight: bold;
+}
+
+input[type="text"] { 
+    line-height: 25.2px;
+}
